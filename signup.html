@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login_css.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html"><img src="img/logo.png" id="logo"></a></li>
+        <li style="float: right;"><a href="#" id="signup">Sign Up</a></li>
+        <li style="float: right;"><a href="login.html" id="login">Log In</a></li>
+    </ul>
+
+    <h2>Sign Up</h2>
+
+    <div class="login-form">
+        <form action="POST">
+            <div class="name">
+                <h3>Name:</h3>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="email">
+                <h3>Email:</h3>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="password">
+                <h3>Password:</h3>
+                    <input type="password" id="password" name="password">
+                    <i class="bi bi-eye-slash" id="togglePassword"></i>
+            </div>
+            
+        </form>
+    </div>
+    <div class="checkbox">
+        <input
+        type="checkbox"
+        name="favourites"
+        id="checkbox1"
+        value="suscription"
+      />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+      <input
+        type="checkbox"
+        name="favourites"
+        id="checkbox2"
+        value="tnc"
+      />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+      <input type="button"  value="Sign Up" class="btn-grad"/>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="signup.js"></script>
+    
+    
+
+
+</script>
+</body>
+</html>

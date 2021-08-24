@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login_css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <title>Log In</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html"><img src="img/logo.png" id="logo"></a></li>
+        <li style="float: right;"><a href="signup.html" id="signup">Sign Up</a></li>
+        <li style="float: right;"><a href="#" id="login">Log In</a></li>
+    </ul>
+
+    <h2>Log In</h2>
+
+    <div class="login-form">
+        <form action="POST">
+        <div class="email">
+            <h3>Email:</h3>
+            <input type="text" id="email" name="email">
+        </div>
+        <div class="password">
+            <h3>Password:</h3>
+                <input type="password" id="password" name="password">
+                <i class="bi bi-eye-slash" id="togglePassword"></i>
+        </div>
+            <input type="button" onclick="check(this.form)" value="Log in" class="btn-grad"/>
+    </form>
+    </div>
+    
+<script src="login_js.js">
+    
+
+
+</script>
+</body>
+</html>
